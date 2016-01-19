@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="robots" content="noindex,nofollow" />
+<title>JQuery-Star Comment Rating</title>
+<script type="text/javascript" src="js/jquery/jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="js/star_rating.js"></script>
+<link rel="stylesheet" type="text/css" href="star.css">
+
+</head>
+<body>
+<div id="demo">
+	<div id="rating_cont">		
+		<div id="rating_btns">
+			<ul>
+				<li><a href ="?vote=0.5">0.5</a></li>
+				<li><a href ="?vote=1.0">1.0</a></li>
+				<li>1.5</li>
+				<li>2.0</li>
+				<li>2.5</li>
+				<li>3.0</li>
+				<li>3.5</li>
+				<li>4.0</li>
+				<li>4.5</li>
+				<li>5.0</li>
+			</ul>
+		</div>	
+		<div id="rating_on" >&nbsp;</div>
+		<div id="rated">
+			<div id="rating" style="height: 17px; line-height: 17px;">not rated</div>
+			<div> - &nbsp;</div>
+			<div id="small_stars">&nbsp;</div>
+			<div id="rate_edit">edit</div>
+		</div>		
+	</div>
+
+	<input type="hidden" id="rating_output" name="rating_output" value="not rated" />
+</div><br />
+<br />
+</body>
+</html>

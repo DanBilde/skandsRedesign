@@ -1,0 +1,178 @@
+@charset "UTF-8";
+/*stylesheet for products.php */
+
+body {
+		background-color:#d6b79a;
+}
+
+h1{
+font-family:Helvetica;
+font-size:12px;
+padding:5px;
+}
+#box_right{
+	display:inline-block;
+	background-color:#e1bd7b;
+	width:400px;
+	height:300px;
+	margin-top:20px;
+	margin-right:35px;
+	float:right;
+		border-top-right-radius:8px;
+		border-top-left-radius:8px;		
+   		border-bottom-left-radius:8px;
+      	border-bottom-right-radius:8px;	
+	
+}
+
+#box_left{ 
+		display:inline-block;
+		width:300px;
+		
+		background-color:#e1bd7b;
+		margin-top:20px;
+		margin-left:35px;
+		border-top-right-radius:8px;
+		border-top-left-radius:8px;		
+   		border-bottom-left-radius:8px;
+      	border-bottom-right-radius:8px;	
+}
+
+.products {
+
+background-color:#b87421;
+width:380px;
+height:380px;
+border-radius:5px;
+box-shadow: 5px 5px 10px #999;
+margin-left:20px;
+margin-top:23px;
+display:inline-block;
+text-align:center;
+
+
+
+
+}
+
+.labels {
+background-color:#b87421;
+width:800px;
+height:400px;
+margin:5px;
+border-radius:5px;
+box-shadow: 5px 5px 10px #999;
+margin-left:15px;
+margin-top:15px;
+}
+
+a hover {color:silver;
+}
+
+form {
+background-color:#b87421;
+width:800px;
+border-radius:5px;
+box-shadow: 5px 5px 10px #999;
+margin-top:30px;
+
+
+}
+#usercomment {
+	
+background-color:#b87421;
+width:790px;
+border-radius:5px;
+box-shadow: 5px 5px 10px #999;
+margin-right:10px;
+margin-top:10px;
+padding:5px;
+}
+
+ #contactform {
+		width:780px;
+		margin-top:30px;
+		margin-bottom:15px;
+		margin-left:10px;
+		padding-right:15px;
+		padding-bottom:30px;		
+		border:#d18402 2px;
+		border-top-right-radius:8px;
+		border-top-left-radius:8px;		
+   		border-bottom-left-radius:8px;
+      	border-bottom-right-radius:8px;				
+		-moz-box-shadow: 0px 20px 50px #000000;
+		-webkit-box-shadow: 0px 20px 50px #000000;
+		background-color:#b87421;
+		
+}
+
+input[type="text"],select {
+		width:350px;
+		height:25px;
+		font-size:15pt;
+		margin-top:10px;
+		margin-left:20px;
+		margin-bottom:10px;
+		border-top-right-radius:8px;
+		border-top-left-radius:8px;		
+   		border-bottom-left-radius:8px;
+      	border-bottom-right-radius:8px;			
+		}
+input[type="password"],select {
+		width:350px;
+		height:25px;
+		font-size:15pt;
+		margin-top:10px;
+		margin-left:20px;
+		margin-bottom:10px;
+		border-top-right-radius:8px;
+		border-top-left-radius:8px;		
+   		border-bottom-left-radius:8px;
+      	border-bottom-right-radius:8px;			
+}
+		
+label {
+	display:block;
+	margin-top:17px;
+	margin-left:10px;
+	width:150px;
+}
+textarea{
+	width:400px;
+	font-size:15pt;
+	margin-left:20px;
+		border-top-right-radius:10px;
+		border-top-left-radius:10px;		
+   		border-bottom-left-radius:10px;
+      	border-bottom-right-radius:10px;	
+
+}
+
+#reform {
+		background-color:#b87421;
+		margin:auto;
+		margin-top:100px;
+		font-family:Didot;
+		width:600px;
+		padding:20px;
+		-moz-box-shadow: 0px 20px 50px #000000;
+		-webkit-box-shadow: 0px 20px 50px #000000;
+		box-shadow: 0px 0px 50px #000000;		
+}
+
+#reform a {
+		text-decoration:none;
+		color:black;
+		font-family:Didot;
+		margin-left:150px;
+		background-color:white;
+		border-top-right-radius:3px;
+		border-top-left-radius:3px;		
+   		border-bottom-left-radius:3px;
+      	border-bottom-right-radius:3px;
+		-moz-box-shadow: 0px 20px 50px #000000;
+		-webkit-box-shadow: 0px 20px 50px #000000;
+		box-shadow: 0px 0px 20px #000000;  
+		padding:10px;    			
+}
